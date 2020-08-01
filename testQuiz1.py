@@ -56,9 +56,9 @@ class HangmanTestCase(unittest.TestCase):
         # self.assertTrue(self.game.turns == 1,f"{self.game.turns}")
         # self.assertTrue(self.game.guess("B") == "A____")
         # self.assertTrue(self.game.turns == 2)
-        # self.assertTrue(self.game.guess("p") == "Ap___")
+        # self.assertTrue(self.game.guess("p") == "App__")
         # self.assertTrue(self.game.turns == 3)
-        # self.assertTrue(self.game.guess("e") == "Ap__e")
+        # self.assertTrue(self.game.guess("e") == "App_e")
 
 
 if __name__ == '__main__':
